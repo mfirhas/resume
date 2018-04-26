@@ -1,0 +1,35 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+\documentclass[11pt, a4paper]{awesome-cv}
+
+    \usepackage[backend=bibtex]{biblatex}
+  
+    \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+  
+    \fontdir[fonts/]
+    \colorlet{awesome}{awesome-skyblue}
+    \setbool{acvSectionColorHighlight}{false}
+    
+    % Personal Informations
+    \name{Muhammad Fathir}{Irhas}
+    \position{Software Engineer{\enskip\cdotp\enskip}Backend Developer}
+    \address{Jakarta - Tangerang}
+    
+    \mobile{(+62) 812-2444-1284}
+    \email{fathir.irhas@outlook.com}
+    \homepage{https://mfathirirhas.github.io}
+    \github{mfathirirhas}
+    \linkedin{mfathirirhas}
+  
+  \begin{document}
+  
+    \makecvheader[C]
+    \makecvfooter
+      {\today}
+      {Muhammad Fathir Irhas~~~·~~~Résumé}
+      {\thepage}
+    
+    \input{sections/portfolio.tex}
+  
+  \end{document}
+  
