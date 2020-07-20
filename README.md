@@ -16,5 +16,9 @@ Tex Resume.
  - Restart
  - Run .tex files with `xelatex filename.tex`
 
+### Mac install and running
+ - Run `brew cask install mactex-no-gui`
+ - Add path `export PATH=/usr/local/texlive/2020basic/bin/x86_64-darwin:$PATH`
 
-*Template by Byungjin Park in [Awesome-CV](https://github.com/posquit0/Awesome-CV)*
+*Template of muhammad-fathir-irhas-resume.pdf by Byungjin Park in [Awesome-CV](https://github.com/posquit0/Awesome-CV)*
+*Template of fathir-simple-resume.pdf by Sourabh Bajaj in [Sourabh-Bajaj-Resume](https://github.com/sb2nov/resume)*

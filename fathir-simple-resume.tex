@@ -1,0 +1,180 @@
+%-------------------------
+% Courtesy of Sourabh Bajaj (https://github.com/sb2nov/resume)
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+%\fancyhead[LE,RO]{Right Text}
+%\fancyhead[RE,LO]{Left Text}
+\fancyfoot[LE,LO]{\fontsize{8}{10}\selectfont\today}
+%\fancyfoot[LE,RO]{\thepage}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/mfathirirhas/}{\Large Muhammad Fathir Irhas}} & Email : \href{mailto:fathir.irhas@outlook.com}{fathir.irhas@outlook.com}\\
+  Software Engineer & Mobile : +62-812-2444-1284 \\
+  Jakarta & Linkedin: \href{https://linkedin.com/in/mfathirirhas}{linkedin.com/in/mfathirirhas} 
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Universitas Telkom}{Bandung, Indonesia}
+      {Sarjana Komputer (S.Kom)}{2012 -- 2016}
+  \resumeSubHeadingListEnd
+
+
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Tokopedia}{Jakarta}
+      {Software Engineer}{July 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{Tech Stacks}
+          {Golang, Javascript, PostgreSQL, MySQL, Redis, NSQ, gRPC, and GQL.}
+        \resumeItem{Tokocash(\emph{discontinued})}
+          {Create Whatsapp verification.}
+        \resumeItem{Saldo Tokopedia}
+          {Designed and refactor deposit transaction identification. Saldo Tokopedia separation into Saldo Penghasilan and Saldo Refund. Frontend revamp and frontend APIs. Saldo Internal dashboard. Refactor codebase architecture to comply to some SOLID principles, saldo separation and for code coverage. Cron services.}
+        \resumeItem{Internal Dashboard}
+          {Work on internal dashboard as backoffice to business and ops teams.}
+        \resumeItem{EGold}
+          {Create  datadog monitoring dashboard for Tokopedia Emas buy and sell success, attempts rate and collect error reporting in the dashboard.}
+        \resumeItem{Legacy Code}
+          {Migrate some legacy code in Perl into Go.}
+        \resumeItem{Monitoring}
+          {Monitor services running through logs, grafana and datadog dashboard.}
+        \resumeItem{Support}
+          {Support other teams to integrate. Support ops teams relating issues from customers.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Anabatic}{Serpong, Tangerang}
+      {Software Engineer}{Nov 2016 - Jun 2018}
+      \resumeItemListStart
+        \resumeItem{Tech Stacks}
+          {Java(Spring), PHP(Codeigniter), MySQL, Javascript.}
+        \resumeItem{Emporia Digital Raya}
+          {Subsidiary of Anabatic. Worked on Eksporaja, a product as a channel partner with Alibaba for eksporter in Indonesia. Maintain Emporia main website. Worked on Udaily another product from emporia for apartment cluster management and daily stuffs.}
+        \resumeItem{Anabatic}
+          {Worked on client site. Supporting development in Allianz.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+    \item{
+        \textbf{Domain and Specs}{: Backend Development, Web Services, Distributed Services, API, RPC, Message Queue, Persistence , Caching, Performance, Monitoring}
+    }
+    \item{
+      \textbf{Main Tools}{: Go, PostgreSQL, MySQL, Javascript, Redis, gRPC, GraphQL, REST APIs, NSQ, Linux}
+    }
+    \item{
+        \textbf{Other Tools}{: Java, C\#, Python, NodeJS}
+    }
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Stuffs}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Programming Challenges(\href{https://github.com/mfathirirhas/ProgrammingChallenges}{Link})}
+      {I spent free time by solving some programming problems found online in OpenKattis.com, hackerrank.com, and others.}
+    \resumeSubItem{Blog(\href{https://mfathirirhas.github.io}{Link})}
+      {My personal blog.}
+    \resumeSubItem{Blind Watermarking(\href{https://github.com/mfathirirhas/TugasAkhir1}{Link})}
+      {College final project creating blind watermarking mechanism using methods Discrete Wavelet Transform and Hidden Markov Model.}
+    \resumeSubItem{ImagePro(\href{https://github.com/mfathirirhas/ImagePro}{Link})}
+      {College project creating mini image processing tools.}
+  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
