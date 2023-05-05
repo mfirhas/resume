@@ -91,16 +91,16 @@
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{https://www.linkedin.com/in/mfathirirhas/}{\Large Muhammad Fathir Irhas}} & Email : \href{mailto:fathir.irhas@outlook.com}{fathir.irhas@outlook.com}\\
   Software Engineer & Mobile/Whatsapp : +62-812-2444-1284 \\
-  Jakarta & Linkedin: \href{https://linkedin.com/in/mfathirirhas}{linkedin.com/in/mfathirirhas} 
+  Jakarta and Bandung & Linkedin: \href{https://linkedin.com/in/mfathirirhas}{linkedin.com/in/mfathirirhas} 
 \end{tabular*}
 
 \section{Summary}  
   {
-    \textbf{Software Engineer} in \textbf{backend} development. Having knowledge in \textbf{Go Programming Language} and tools related. 
-    Experienced in \textbf{microservices} architecture. 
-    Currently learning Rust and have interest in Rust-based web related project.
-    Always learning to improve skills. Able to work individually or in team.
-    Trying to achieve solutions with best possible way and practices.
+    \it Software Engineer experienced in backend development using several technologies included Go, Java, Rust, and other tools related.
+    Having experiences working in microservices architecture communicating eachother through APIs in form of HTTP/REST, gRPC, GraphQL, and message queue. 
+    Handling projects and features development, maintaining, and monitoring. Able to work individually or in team. 
+    Focus on correctness of works and optimize for speeds. 
+    Adaptable and learnability, might not knowing some techs, but with enough fundamentals able to learn and implement it. Willing to explore even tech with steep learning curve like Rust.
   }
 
 %-----------EDUCATION-----------------
@@ -137,10 +137,6 @@
     \resumeItemListEnd
 
     \resumeSubheading
-    {Shopee}{Jakarta}
-    {Backend Engineer}{December 2021 - Maret 2022}
-
-    \resumeSubheading
       {Tiket.com}{Jakarta}
       {Backend Engineer}{November 2020 - December 2021}
       \resumeItemListStart
@@ -151,7 +147,7 @@
         \resumeItem{Project}
           {Creating internal mock server for mocking part of inter-services communications, especially partner and integration with flight supplier.}
         \resumeText
-          {Working on flight search caching tools to populate search cache preemptively.}
+          {Working on flight search caching tools to populate search cache preemptively for promos purpose.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -161,18 +157,24 @@
         \resumeItem{Team}{Fintech}
         \resumeItem{Tech Stacks}
           {Golang, Javascript, PostgreSQL, MySQL, Redis, NSQ, gRPC, and GQL.}
-        \resumeItem{Tokocash(\emph{discontinued})}
-          {Create Whatsapp verification.}
         \resumeItem{Saldo Tokopedia}
-          {Designed and refactor deposit transaction identification. Saldo Tokopedia separation into Saldo Penghasilan and Saldo Refund. Frontend revamp and frontend APIs. Saldo Internal dashboard. Refactor codebase architecture to comply to some SOLID principles, saldo separation and for code coverage. Cron services.}
+          {Handling Saldo Service as journaling every transactions in Tokopedia}
+          \resumeItemListStart
+            \resumeText{Design and implements transactions code for every products and services by storing them in service's local cache refreshed every n minutes using goroutine background process.}
+            \resumeText{Handling Saldo Service internal dashboard.}
+            \resumeText{Migrate old code from Perl related to saldo service into Golang.}
+            \resumeText{Help other teams and services to integrate into Saldo Service.}
+            \resumeText{Saldo buyer and seller separatations, refactoring APIs to adjust saldo separations, along with its grpc and gql apis.}
+            \resumeText{Saldo buyer and seller separatations, revamping saldo's monolith service along with its front end in Golang template with javascript(jquery) frontend}
+            \resumeText{Refactor codes for unit tests coverage, adding testability to the code.}
+            \resumeText{Data query for specific data fetching and changes not covered by service's api and internal dashboard.}
+          \resumeItemListEnd
         \resumeItem{Internal Dashboard}
           {Work on internal dashboard as backoffice to business and ops teams.}
         \resumeItem{EGold}
           {Create  datadog monitoring dashboard for Tokopedia Emas buy and sell success, attempts rate and collect error reporting in the dashboard.}
-        \resumeItem{Legacy Code}
-          {Migrate some legacy code in Perl into Go.}
         \resumeItem{Monitoring}
-          {Monitor services running through logs, grafana and datadog dashboard.}
+          {Monitor services running through server's logs, grafana and datadog dashboard.}
         \resumeItem{Support}
           {Support other teams to integrate. Support ops teams relating issues from customers.}
       \resumeItemListEnd
@@ -184,7 +186,7 @@
         \resumeItem{Tech Stacks}
           {Java(Spring), PHP(Codeigniter), MySQL, Javascript.}
         \resumeItem{Emporia Digital Raya}
-          {Subsidiary of Anabatic. Worked on Eksporaja, a product as a channel partner with Alibaba for eksporter in Indonesia. Maintain Emporia main website. Worked on Udaily another product from emporia for apartment cluster management and daily stuffs.}
+          {Subsidiary of Anabatic. Worked on Eksporaja, a product as a channel partner with Alibaba for exporter in Indonesia. Maintain Emporia main website. Worked on Udaily another product from emporia for apartment cluster management and daily stuffs.}
         \resumeItem{Anabatic}
           {Worked on client site. Supporting development in Allianz.}
       \resumeItemListEnd
@@ -228,6 +230,8 @@
   \resumeSubHeadingListStart
     \resumeSubItem{Github}
       {\href{https://github.com/mfathirirhas}{https://github.com/mfathirirhas}}
+    \resumeSubItem{Rust Note - notes I take while learning Rust}
+      {\href{https://mfathirirhas.github.io/rust-note}{https://mfathirirhas.github.io/rust-note}}
   \resumeSubHeadingListEnd
 
 
